@@ -46,6 +46,7 @@ This will output the following information to your terminal/bash window:
 * Language
 * Plot
 * Actors
+
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 ![](images/movie-terminal.JPG)

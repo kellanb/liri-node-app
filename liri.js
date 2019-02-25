@@ -117,11 +117,16 @@ function dostuff() {
     }
 
     var array = data.split(',');
-    console.log(array);
 
     if (array[0] === "spotify-this-song") {
       var pickSong = array[1].slice(1, -1);
       spotify(pickSong);
+    } else if (array[0] === "movie-this") {
+      var pickMovie = array[1].slice(1, -1);
+      movie(pickMovie);
+    } else if (array[0] === "concert-this") {
+      var pickConcert = array[1].slice(1, -1);
+      concert(pickConcert);
     }
 
   });

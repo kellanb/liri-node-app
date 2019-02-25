@@ -15,6 +15,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 ![](images/concert-terminal.JPG)
 
 It will also append the results into the log.txt file
+
 ![](images/concert-log.JPG)
 
 #### Spotify
@@ -27,7 +28,11 @@ This will show the following information about the song in your terminal/bash wi
 * The album that the song is from
 If no song is provided then your program will default to "Learning to Fly" by Tom Petty
 
+![](images/spotify-terminal.JPG)
+
 It will also append the results into the log.txt file
+
+![](images/spotify-log.JPG)
 
 #### Movies
 node liri.js movie-this <insert movie title>
@@ -43,7 +48,11 @@ This will output the following information to your terminal/bash window:
 * Actors
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
+![](images/movie-terminal.JPG)
+
 It will also append the results into the log.txt file
+
+![](images/movie-log.JPG)
 
 #### Do What It Says
 node liri.js do-what-it-says
@@ -51,3 +60,7 @@ node liri.js do-what-it-says
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
 Right now it will run spotify-this-song for "I Want it That Way,".
+
+![](images/dowhatitsays-terminal.JPG)
+
+![](images/dowhatitsays-log.JPG)

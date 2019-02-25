@@ -15,6 +15,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 ![](images/concert-terminal.JPG)
 
 It will also append the results into the log.txt file
+![](images/concert-log.JPG)
 
 #### Spotify
 node liri.js spotify-this-song <insert song title>

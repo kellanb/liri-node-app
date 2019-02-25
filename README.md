@@ -12,6 +12,9 @@ This will search the Bands in Town Artist Events API for an artist and render th
 * Venue location
 * Date of the Event
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 It will also append the results into the log.txt file
 
 #### Spotify

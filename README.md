@@ -4,7 +4,7 @@
 LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
 ## What it does
-#### Concerts
+### Concerts
 node liri.js concert-this <artist/band name here>
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal/bash window:
@@ -18,7 +18,7 @@ It will also append the results into the log.txt file
 
 ![](images/concert-log.JPG)
 
-#### Spotify
+### Spotify
 node liri.js spotify-this-song <insert song title>
 
 This will show the following information about the song in your terminal/bash window:
@@ -34,7 +34,7 @@ It will also append the results into the log.txt file
 
 ![](images/spotify-log.JPG)
 
-#### Movies
+### Movies
 node liri.js movie-this <insert movie title>
 
 This will output the following information to your terminal/bash window:
@@ -54,7 +54,7 @@ It will also append the results into the log.txt file
 
 ![](images/movie-log.JPG)
 
-#### Do What It Says
+### Do What It Says
 node liri.js do-what-it-says
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
